@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script disable-devtool-auto src="https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js"></script>
+</head>
+<body class="bg-black">
+    <!-- Soft background glows -->
+  <div class="pointer-events-none fixed inset-0 -z-10">
+    <div class="absolute -top-24 -left-28 h-[40rem] w-[40rem] rounded-full bg-purple-600/10 blur-[120px]"></div>
+    <div class="absolute -bottom-32 -right-16 h-[36rem] w-[36rem] rounded-full bg-emerald-500/10 blur-[120px]"></div>
+  </div>
+    <!-- header starts -->
+    <header class="text-white body-font bg-transparent">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row ">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <span class="ml-3 text-xl text-bold font-bold text-purple-400">Computer Programming </span> <span class="text-green-400 animate-bounce font-bold text-xl"> PPTs</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+    </nav>
+    <button class="inline-flex items-center bg-green-600 ml-20 border-0 py-2 px-10 focus:outline-none hover:opacity-90 hover:shadow-blue-500 transition-all rounded text-base mt-4 md:mt-0">Home
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke="">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+<!-- main content starts -->
+    <div id="head" class="flex flex-items justify-center items-center h-screen">
+        <a class="px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 to-emerald-500 hover:from-purple-600 hover:to-emerald-600 transition shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500 duration-500 text-white font-bold transition-all border-white" href="https://example.com" target="_blank"> 
+        <button>
+            Introduction and History of Computers
+        </button></a>
+    </div>
+</body>
+</html>
+
